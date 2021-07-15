@@ -18,7 +18,7 @@ export (Freelook_Modes) var freelook_mode = 2
 export (float, 0.0, 1.0) var sensitivity = 0.5
 export (float, 0.0, 0.999, 0.001) var smoothness = 0.5 setget set_smoothness
 export (int, 0, 360) var yaw_limit = 360
-export (int, 0, 360) var pitch_limit = 360
+export (int, 0, 360) var pitch_limit = 90
 
 # Pivot Settings
 export(NodePath) var pivot setget set_pivot
