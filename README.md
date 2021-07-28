@@ -66,10 +66,10 @@ This logic can be used to load key bindings from a configuration file.
 - int `pitch_limit` - Limit the Pitch of the mouselook in Degrees, if limit = 360 there is no limit. Default value is 360.
 
 #### Pivot
-- Spatial `privot` - Optional privot object for thirdperson like mouselook. Default value is None (no privot).
-- bool `rotate_privot` - Enable/disable if the will be rotated with the camera. Default is false.
-- float `distance` - The distance between the camera and the privot object. Minimum value is 0. Default value is 5.0
-- bool `rotate_privot` - Rotate privot object with the mouselook. Default is false.
+- Spatial `pivot` - Optional pivot object for thirdperson like mouselook. Default value is None (no pivot).
+- bool `rotate_pivot` - Enable/disable if the will be rotated with the camera. Default is false.
+- float `distance` - The distance between the camera and the pivot object. Minimum value is 0. Default value is 5.0
+- bool `rotate_pivot` - Rotate pivot object with the mouselook. Default is false.
 - bool `collision` - The camera avoid it to go through/behind objects. Default is true.
 
 #### Movement
